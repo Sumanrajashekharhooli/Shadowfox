@@ -1,0 +1,24 @@
+1)# Create a variable named pi and store 22/7 in it, then print value and type
+pi = 22 / 7
+print("Value of pi:", pi)
+print("Data type of pi:", type(pi))
+
+print()  # blank line for readability
+
+# 2. Why we can't use 'for' as a variable
+# If you try this in Python:
+# for = 4
+# you will get a SyntaxError, because 'for' is a reserved keyword
+# used in loops like: for i in range(5):
+
+print("'for' cannot be used as a variable name because it is a reserved keyword in Python.")
+
+print()  # blank line for readability
+
+# 3. Simple Interest calculation for 3 years
+P = 10000   # principal amount
+R = 5       # rate of interest
+T = 3       # time in years
+
+SI = (P * R * T) / 100
+print("Simple Interest for 3 years is:", SI)
